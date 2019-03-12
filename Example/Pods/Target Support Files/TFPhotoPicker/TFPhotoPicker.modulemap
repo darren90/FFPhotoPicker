@@ -1,0 +1,6 @@
+framework module TFPhotoPicker {
+  umbrella header "TFPhotoPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

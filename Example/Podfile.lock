@@ -1,0 +1,16 @@
+PODS:
+  - TFPhotoPicker (0.1.0)
+
+DEPENDENCIES:
+  - TFPhotoPicker (from `../`)
+
+EXTERNAL SOURCES:
+  TFPhotoPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFPhotoPicker: 25c6bde2ae869e195eecd6d75b63785685158e21
+
+PODFILE CHECKSUM: 8696d0b43f83c23fdf34fae466c0f32866c01ca9
+
+COCOAPODS: 1.6.0
