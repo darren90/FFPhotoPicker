@@ -100,7 +100,7 @@
 
 - (UIColor *)selectItemBgColor {
     if (!_selectItemBgColor) {
-        return [UIColor blueColor];
+        return [UIColor lightGrayColor];
     }
     return _selectItemBgColor;
 }

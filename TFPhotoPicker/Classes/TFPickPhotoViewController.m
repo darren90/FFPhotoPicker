@@ -53,6 +53,7 @@
     self.rightBarButton.enabled = NO;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightBarButton];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     [self addCollection];
     
     if (self.selectAlbums.count) {
