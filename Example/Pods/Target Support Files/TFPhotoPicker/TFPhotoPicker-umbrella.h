@@ -10,6 +10,14 @@
 #endif
 #endif
 
+#import "TFAssetLibraryUtils.h"
+#import "TFAssetLibraryUtils.m"
+#import "TFPickPhotoCell.h"
+#import "TFPickPhotoCell.m"
+#import "TFPickPhotoModel.h"
+#import "TFPickPhotoModel.m"
+#import "TFPickPhotoViewController.h"
+#import "TFPickPhotoViewController.m"
 
 FOUNDATION_EXPORT double TFPhotoPickerVersionNumber;
 FOUNDATION_EXPORT const unsigned char TFPhotoPickerVersionString[];

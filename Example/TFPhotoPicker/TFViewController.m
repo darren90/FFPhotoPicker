@@ -7,6 +7,7 @@
 //
 
 #import "TFViewController.h"
+#import "TFPickPhotoViewController.h"
 
 @interface TFViewController ()
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    TFPickPhotoViewController *pickVc = [TFPickPhotoViewController new];
+    [self presentViewController:pickVc animated:YES completion:nil];
 }
 
 @end

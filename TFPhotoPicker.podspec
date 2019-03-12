@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TFPhotoPicker/Classes/**/*'
-  
+  s.public_header_files = 'TFPhotoPicker/Classes/**/*.{h,m}'
+
   # s.resource_bundles = {
   #   'TFPhotoPicker' => ['TFPhotoPicker/Assets/*.png']
   # }
